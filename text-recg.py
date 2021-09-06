@@ -1,0 +1,1 @@
+#import required librariesfrom PIL import Imageimport cv2#read an image and convert it to greyimage =Image.open('IMG-20200118-WA0018-01.jpeg').convert('L')#Display imageimage.show()#save imageimage.save('newGimg')
